@@ -1,5 +1,7 @@
 
-# FPS Monitor Overlay (Windows)
+# HWiNFO64 Overlay
+
+A Python code overlay base on HWiNFO64. Display CPU, GPU, RAM, FPS information. Open source & free.
 
 ## Features
 - CPU/GPU usage, temps, clocks, fan RPM, RAM usage
