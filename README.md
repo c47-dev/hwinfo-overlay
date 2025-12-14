@@ -9,12 +9,16 @@ A Python code overlay base on HWiNFO64. Display CPU, GPU, RAM, FPS information. 
 - Drag to reposition; stays on top of fullscreen apps
 - Toggle/exit via hotkeys and system tray
 
+## Releases (download EXE)
+- Download the latest Windows executable from the Releases page: `https://github.com/c47-dev/hwinfo-overlay/releases`.
+- Prerequisite: install HWiNFO64 and enable **Shared Memory Support**  
+  Download: https://www.hwinfo.com/download/
+- Run the EXE; no install needed.
+
 ## Requirements
 - Windows
 - Python 3.9+ recommended
 - HWiNFO64 (for shared memory sensors/FPS) with “Shared Memory Support” enabled
-- (Optional but recommended) LibreHardwareMonitor or OpenHardwareMonitor running
-- NVIDIA GPUs: NVML bundled with drivers (auto-used if available)
 
 Python deps: `PyQt6`, `psutil`, `wmi`, `pywin32`, `keyboard` (@requirements.txt)
 
